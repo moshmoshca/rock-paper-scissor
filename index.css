@@ -4,3 +4,136 @@
     box-sizing: border-box;
 }
 
+body {
+    text-align: center;
+    background-color: #F2D5D5;
+    color: #262626;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+/* div {
+    border: 1px solid red;
+} */
+
+h1, 
+h2,
+.winner-mssg {
+    font-family: "Joti One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p, 
+button {
+    font-family: "Jura", sans-serif;
+}
+
+/* ----------------  TITLE ------------------ */
+
+.header-container {
+   padding: 2em 1em;
+}
+
+.header-info {
+    margin-bottom: 4em;
+}
+
+.game-title {
+    font-size: 3.12em;
+    font-weight: 800;
+    color: #03A696;
+}
+
+.game-subtitle {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #BF3676;
+}
+
+.winner-container {
+    margin-bottom: 2em;
+}
+
+.winner-mssg {
+    font-size: 68px;
+}
+
+/* ----------------  GAME ------------------ */
+
+.game-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.game-container h2 {
+    font-size: 1.85em;
+}
+
+.user,
+.computer {
+    width: 25em;
+    padding: 3em 2em;
+}
+
+.user {
+    background-color: #F2C53D;
+}
+
+.user-title {
+    margin-bottom: 2em;
+}
+
+.user-title p {
+    font-size: 1.15em;
+}
+
+/* Buttons */
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn {
+    width: 6em;
+    padding: 0.6em;
+
+    font-size: 1.1em;
+    font-weight: 800;
+
+    border: none;
+    border-radius: 0;
+    background-color: #F6E1BA;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(108,81,0,0.3), 0 1px 26px 0 rgba(108,81,0,0.12);
+    transition-duration: 0.3s;
+}
+
+.computer {
+    background-color: #BF3676;
+    color: white;
+}
+
+.computer-title h2 {
+    margin-bottom: 1.25em;
+}
+
+.random-choice {
+    font-size: 1.5em;
+    font-weight: 500;
+}
