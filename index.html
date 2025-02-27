@@ -11,6 +11,7 @@
 </head>
 <body>
     <div class="wrapper">
+
         <!------------------- TITLE ------------------->
         <div class="header-container">
             <div class="header-info">
@@ -18,9 +19,10 @@
                 <p class="game-subtitle">The Ultimate Battle</p>
             </div>
             <div class="winner-container">
-                <p class="winner-mssg">You Won!</p>
+                <p id="winner-msg" class="display-winner-msg">You Won!</p>
             </div>
         </div>
+
         <!------------------ GAME -------------------->
         <div class="game-container">
             <div class="user">
@@ -29,15 +31,15 @@
                     <p>Pick a weapon to defeat the monster!</p>
                 </div>
                 <div class="button-container">
-                    <button class="btn" type="submit">Rock</button>
-                    <button class="btn" type="submit">Paper</button>
-                    <button class="btn" type="submit">Scissor</button>
+                    <button id="rock-btn" class="btn" onclick="getUserChoiceRock()">Rock</button>
+                    <button id="paper-btn" class="btn" onclick="">Paper</button>
+                    <button id="scissor-btn" class="btn" onclick="">Scissor</button>
                 </div>
             </div>
             <div class="computer">
                 <div class="computer-title">
                     <h2>Evil Opponent</h2>
-                    <p class="random-choice">Select</p>
+                    <p id="evil-choice" class="random-choice">Select</p>
                 </div>
             </div>
         </div>
