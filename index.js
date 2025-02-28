@@ -16,7 +16,6 @@ const getUserChoiceScissor = userInput => {
     return userInput;
 }
  
-
 let rockBtn = document.getElementById("rock-btn").addEventListener("click", getUserChoiceRock);
 let paperBtn = document.getElementById("paper-btn").addEventListener("click", getUserChoicePaper);
 let scissorBtn = document.getElementById("scissor-btn").addEventListener("click", getUserChoiceScissor);
